@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0702C95C1C56CB5600C09128 /* JogoDaVelhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0702C95B1C56CB5600C09128 /* JogoDaVelhaViewController.m */; };
+		0702C95E1C56CEFA00C09128 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0702C95D1C56CEFA00C09128 /* MessageUI.framework */; };
+		0734771B1C51A65D0079B870 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0734771A1C51A65D0079B870 /* Utils.m */; };
+		076E53D51C52F1A800F7D02D /* GerenciadorDeAcoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E53D41C52F1A800F7D02D /* GerenciadorDeAcoes.m */; };
+		076E53D91C52FAB600F7D02D /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E53D81C52FAB600F7D02D /* ToastView.m */; };
 		0783C37D1C4D94BB0027530A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C37C1C4D94BB0027530A /* main.m */; };
 		0783C3801C4D94BB0027530A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C37F1C4D94BB0027530A /* AppDelegate.m */; };
-		0783C3831C4D94BB0027530A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C3821C4D94BB0027530A /* ViewController.m */; };
+		0783C3831C4D94BB0027530A /* FormularioContatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C3821C4D94BB0027530A /* FormularioContatoViewController.m */; };
 		0783C3861C4D94BB0027530A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0783C3841C4D94BB0027530A /* Main.storyboard */; };
 		0783C3891C4D94BB0027530A /* Contatos67.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0783C3871C4D94BB0027530A /* Contatos67.xcdatamodeld */; };
 		0783C38B1C4D94BB0027530A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0783C38A1C4D94BB0027530A /* Assets.xcassets */; };
 		0783C38E1C4D94BB0027530A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0783C38C1C4D94BB0027530A /* LaunchScreen.storyboard */; };
 		0783C3991C4D94BB0027530A /* Contatos67Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C3981C4D94BB0027530A /* Contatos67Tests.m */; };
 		0783C3A41C4D94BB0027530A /* Contatos67UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C3A31C4D94BB0027530A /* Contatos67UITests.m */; };
+		0783C3B61C4DB9770027530A /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 0783C3B51C4DB9770027530A /* Contato.m */; };
+		07B946331C4EFC060021500E /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B946321C4EFC050021500E /* ContatoDao.m */; };
+		07B946391C4F082E0021500E /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B946381C4F082E0021500E /* ListaContatosViewController.m */; };
+		07CE96B71C5ADA20002E8B04 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE96B61C5ADA20002E8B04 /* DAO.m */; };
+		07D120291C582B4300EDEAF5 /* ContatosNoMapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D120271C582B4300EDEAF5 /* ContatosNoMapaViewController.m */; };
+		07D1202A1C582B4300EDEAF5 /* ContatosNoMapaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D120281C582B4300EDEAF5 /* ContatosNoMapaViewController.xib */; };
+		07D1202C1C582BE100EDEAF5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D1202B1C582BE100EDEAF5 /* MapKit.framework */; };
+		43A68FD703AEE5AA917820AF /* libPods-Contatos67.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159B53BA7E5B0955F2E42B13 /* libPods-Contatos67.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0702C95A1C56CB4700C09128 /* JogoDaVelhaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JogoDaVelhaViewController.h; sourceTree = "<group>"; };
+		0702C95B1C56CB5600C09128 /* JogoDaVelhaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JogoDaVelhaViewController.m; sourceTree = "<group>"; };
+		0702C95D1C56CEFA00C09128 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		073477191C51A64B0079B870 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		0734771A1C51A65D0079B870 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		076E53D31C52F0BA00F7D02D /* GerenciadorDeAcoes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GerenciadorDeAcoes.h; sourceTree = "<group>"; };
+		076E53D41C52F1A800F7D02D /* GerenciadorDeAcoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerenciadorDeAcoes.m; sourceTree = "<group>"; };
+		076E53D81C52FAB600F7D02D /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		076E53DA1C52FADD00F7D02D /* ToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
 		0783C3781C4D94BB0027530A /* Contatos67.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatos67.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0783C37C1C4D94BB0027530A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0783C37E1C4D94BB0027530A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0783C37F1C4D94BB0027530A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0783C3811C4D94BB0027530A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0783C3821C4D94BB0027530A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0783C3811C4D94BB0027530A /* FormularioContatoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormularioContatoViewController.h; sourceTree = "<group>"; };
+		0783C3821C4D94BB0027530A /* FormularioContatoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormularioContatoViewController.m; sourceTree = "<group>"; };
 		0783C3851C4D94BB0027530A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0783C3881C4D94BB0027530A /* Contatos67.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contatos67.xcdatamodel; sourceTree = "<group>"; };
 		0783C38A1C4D94BB0027530A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +75,22 @@
 		0783C39F1C4D94BB0027530A /* Contatos67UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Contatos67UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0783C3A31C4D94BB0027530A /* Contatos67UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contatos67UITests.m; sourceTree = "<group>"; };
 		0783C3A51C4D94BB0027530A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0783C3B41C4DB9450027530A /* Contato.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Contato.h; path = ../Contato.h; sourceTree = "<group>"; };
+		0783C3B51C4DB9770027530A /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		07B946311C4EFBE40021500E /* ContatoDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContatoDao.h; sourceTree = "<group>"; };
+		07B946321C4EFC050021500E /* ContatoDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContatoDao.m; sourceTree = "<group>"; };
+		07B946371C4F082E0021500E /* ListaContatosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListaContatosViewController.h; path = ../ListaContatosViewController.h; sourceTree = "<group>"; };
+		07B946381C4F082E0021500E /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListaContatosViewController.m; path = ../ListaContatosViewController.m; sourceTree = "<group>"; };
+		07CE96B51C5ADA20002E8B04 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		07CE96B61C5ADA20002E8B04 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		07D120261C582B4300EDEAF5 /* ContatosNoMapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContatosNoMapaViewController.h; path = ../ContatosNoMapaViewController.h; sourceTree = "<group>"; };
+		07D120271C582B4300EDEAF5 /* ContatosNoMapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContatosNoMapaViewController.m; path = ../ContatosNoMapaViewController.m; sourceTree = "<group>"; };
+		07D120281C582B4300EDEAF5 /* ContatosNoMapaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContatosNoMapaViewController.xib; path = ../ContatosNoMapaViewController.xib; sourceTree = "<group>"; };
+		07D1202B1C582BE100EDEAF5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		07D1202D1C5847B000EDEAF5 /* VilaMariana.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VilaMariana.gpx; sourceTree = "<group>"; };
+		159B53BA7E5B0955F2E42B13 /* libPods-Contatos67.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contatos67.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B9A8777583D36BC0A6B2E1 /* Pods-Contatos67.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatos67.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contatos67/Pods-Contatos67.release.xcconfig"; sourceTree = "<group>"; };
+		F92BF51122CE80C77F4C5B17 /* Pods-Contatos67.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contatos67.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contatos67/Pods-Contatos67.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D1202C1C582BE100EDEAF5 /* MapKit.framework in Frameworks */,
+				0702C95E1C56CEFA00C09128 /* MessageUI.framework in Frameworks */,
+				43A68FD703AEE5AA917820AF /* libPods-Contatos67.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +121,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0734771C1C51A66C0079B870 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				073477191C51A64B0079B870 /* Utils.h */,
+				0734771A1C51A65D0079B870 /* Utils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		076E53DB1C52FCC200F7D02D /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				076E53D81C52FAB600F7D02D /* ToastView.m */,
+				076E53DA1C52FADD00F7D02D /* ToastView.h */,
+			);
+			name = ToastView;
+			sourceTree = "<group>";
+		};
+		076E53DC1C53021C00F7D02D /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				076E53D31C52F0BA00F7D02D /* GerenciadorDeAcoes.h */,
+				076E53D41C52F1A800F7D02D /* GerenciadorDeAcoes.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		076E53DD1C53022E00F7D02D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				076E53DB1C52FCC200F7D02D /* ToastView */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		0783C36F1C4D94BB0027530A = {
 			isa = PBXGroup;
 			children = (
+				07D1202B1C582BE100EDEAF5 /* MapKit.framework */,
+				0702C95D1C56CEFA00C09128 /* MessageUI.framework */,
 				0783C37A1C4D94BB0027530A /* Contatos67 */,
 				0783C3971C4D94BB0027530A /* Contatos67Tests */,
 				0783C3A21C4D94BB0027530A /* Contatos67UITests */,
 				0783C3791C4D94BB0027530A /* Products */,
+				37D42BD01C8CF40881D61FFF /* Pods */,
+				58F21BDD4AA451D8C6256E9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +183,14 @@
 		0783C37A1C4D94BB0027530A /* Contatos67 */ = {
 			isa = PBXGroup;
 			children = (
-				0783C37E1C4D94BB0027530A /* AppDelegate.h */,
-				0783C37F1C4D94BB0027530A /* AppDelegate.m */,
-				0783C3811C4D94BB0027530A /* ViewController.h */,
-				0783C3821C4D94BB0027530A /* ViewController.m */,
+				07D1202D1C5847B000EDEAF5 /* VilaMariana.gpx */,
+				076E53DC1C53021C00F7D02D /* Handlers */,
+				076E53DD1C53022E00F7D02D /* Components */,
+				0734771C1C51A66C0079B870 /* Utils */,
+				07B9463A1C4F0F040021500E /* ViewController */,
+				07B9463B1C4F0F170021500E /* Model */,
+				07B9463C1C4F0F2C0021500E /* Dao */,
+				07B9463D1C4F0F490021500E /* Delegate */,
 				0783C3841C4D94BB0027530A /* Main.storyboard */,
 				0783C38A1C4D94BB0027530A /* Assets.xcassets */,
 				0783C38C1C4D94BB0027530A /* LaunchScreen.storyboard */,
@@ -143,6 +227,68 @@
 			path = Contatos67UITests;
 			sourceTree = "<group>";
 		};
+		07B9463A1C4F0F040021500E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07D120261C582B4300EDEAF5 /* ContatosNoMapaViewController.h */,
+				07D120271C582B4300EDEAF5 /* ContatosNoMapaViewController.m */,
+				07D120281C582B4300EDEAF5 /* ContatosNoMapaViewController.xib */,
+				0702C95A1C56CB4700C09128 /* JogoDaVelhaViewController.h */,
+				0702C95B1C56CB5600C09128 /* JogoDaVelhaViewController.m */,
+				07B946371C4F082E0021500E /* ListaContatosViewController.h */,
+				07B946381C4F082E0021500E /* ListaContatosViewController.m */,
+				0783C3811C4D94BB0027530A /* FormularioContatoViewController.h */,
+				0783C3821C4D94BB0027530A /* FormularioContatoViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		07B9463B1C4F0F170021500E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0783C3B41C4DB9450027530A /* Contato.h */,
+				0783C3B51C4DB9770027530A /* Contato.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07B9463C1C4F0F2C0021500E /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				07B946311C4EFBE40021500E /* ContatoDao.h */,
+				07B946321C4EFC050021500E /* ContatoDao.m */,
+				07CE96B51C5ADA20002E8B04 /* DAO.h */,
+				07CE96B61C5ADA20002E8B04 /* DAO.m */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		07B9463D1C4F0F490021500E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0783C37E1C4D94BB0027530A /* AppDelegate.h */,
+				0783C37F1C4D94BB0027530A /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		37D42BD01C8CF40881D61FFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF51122CE80C77F4C5B17 /* Pods-Contatos67.debug.xcconfig */,
+				B8B9A8777583D36BC0A6B2E1 /* Pods-Contatos67.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58F21BDD4AA451D8C6256E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159B53BA7E5B0955F2E42B13 /* libPods-Contatos67.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0783C3A81C4D94BB0027530A /* Build configuration list for PBXNativeTarget "Contatos67" */;
 			buildPhases = (
+				E16C2ACC9738B5A890796C4F /* Check Pods Manifest.lock */,
 				0783C3741C4D94BB0027530A /* Sources */,
 				0783C3751C4D94BB0027530A /* Frameworks */,
 				0783C3761C4D94BB0027530A /* Resources */,
+				051B25833EE56C2D50E74FA6 /* Embed Pods Frameworks */,
+				CF6FFE3F251416C37601E5AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +397,7 @@
 			files = (
 				0783C38E1C4D94BB0027530A /* LaunchScreen.storyboard in Resources */,
 				0783C38B1C4D94BB0027530A /* Assets.xcassets in Resources */,
+				07D1202A1C582B4300EDEAF5 /* ContatosNoMapaViewController.xib in Resources */,
 				0783C3861C4D94BB0027530A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +418,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		051B25833EE56C2D50E74FA6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contatos67/Pods-Contatos67-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6FFE3F251416C37601E5AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contatos67/Pods-Contatos67-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16C2ACC9738B5A890796C4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0783C3741C4D94BB0027530A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0783C3831C4D94BB0027530A /* ViewController.m in Sources */,
+				0783C3B61C4DB9770027530A /* Contato.m in Sources */,
+				0783C3831C4D94BB0027530A /* FormularioContatoViewController.m in Sources */,
+				076E53D51C52F1A800F7D02D /* GerenciadorDeAcoes.m in Sources */,
+				07B946391C4F082E0021500E /* ListaContatosViewController.m in Sources */,
+				076E53D91C52FAB600F7D02D /* ToastView.m in Sources */,
+				0702C95C1C56CB5600C09128 /* JogoDaVelhaViewController.m in Sources */,
+				0734771B1C51A65D0079B870 /* Utils.m in Sources */,
+				07CE96B71C5ADA20002E8B04 /* DAO.m in Sources */,
+				07D120291C582B4300EDEAF5 /* ContatosNoMapaViewController.m in Sources */,
 				0783C3801C4D94BB0027530A /* AppDelegate.m in Sources */,
+				07B946331C4EFC060021500E /* ContatoDao.m in Sources */,
 				0783C37D1C4D94BB0027530A /* main.m in Sources */,
 				0783C3891C4D94BB0027530A /* Contatos67.xcdatamodeld in Sources */,
 			);
@@ -413,23 +620,30 @@
 		};
 		0783C3A91C4D94BB0027530A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92BF51122CE80C77F4C5B17 /* Pods-Contatos67.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Contatos67/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.Contatos67;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contatos67/Contatos67-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		0783C3AA1C4D94BB0027530A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B9A8777583D36BC0A6B2E1 /* Pods-Contatos67.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Contatos67/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.Contatos67;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contatos67/Contatos67-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -500,6 +714,7 @@
 				0783C3AA1C4D94BB0027530A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0783C3AB1C4D94BB0027530A /* Build configuration list for PBXNativeTarget "Contatos67Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +723,7 @@
 				0783C3AD1C4D94BB0027530A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0783C3AE1C4D94BB0027530A /* Build configuration list for PBXNativeTarget "Contatos67UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +732,7 @@
 				0783C3B01C4D94BB0027530A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
